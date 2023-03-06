@@ -374,7 +374,7 @@ def process_file(file):
         image = file.read()
     else:
         file_bytes = file.read()
-        images = convert_from_bytes(file_bytes, poppler_path="C:/poppler-0.68.0/bin")
+        images = convert_from_bytes(file_bytes)
         for i in range(len(images)):
             images[i].save('page' + str(i) + '.jpg', 'JPEG')
 
