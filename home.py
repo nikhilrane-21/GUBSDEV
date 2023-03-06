@@ -401,8 +401,8 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Connection to db
-MONGO_URI = os.getenv("MONGO_URI")
-connection = pymongo.MongoClient(MONGO_URI)
+# MONGO_URI = os.getenv("MONGO_URI")
+connection = pymongo.MongoClient("mongodb+srv://nikhil:nikhil@atlascluster.7o742.mongodb.net/?retryWrites=true&w=majority")
 db = connection.helloworld
 
 
