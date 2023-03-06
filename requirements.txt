@@ -100,6 +100,4 @@ uritemplate==4.1.1
 urllib3==1.26.14
 validators==0.20.0
 watchdog==2.3.1
-Werkzeug==2.2.3
-wrapt==1.15.0
-zipp==3.15.0
+
